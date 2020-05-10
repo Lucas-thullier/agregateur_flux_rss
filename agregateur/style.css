@@ -1,0 +1,119 @@
+/* Attention tous les margin = cache-misère je crois*/
+@media all and (max-width: 480px)
+{
+	header
+	{
+		background-color: blue;
+		height: 5cm;
+		margin-left: -0.5cm;
+		margin-right: -0.2cm;
+		margin-top: -0.5cm;
+	}
+}
+@media all and (min-width: 481px)
+{
+	header{
+		height: 3cm;
+		/*background-color: rgba(73, 79, 99,0.6);*/
+		background-color: rgba(0, 0, 0,0.2);
+
+		margin-left: -0.5cm;
+		margin-right: -0.2cm;
+		margin-top: -0.5cm;
+	}
+}
+body{
+	background-color: rgb(74, 78, 91);
+	background-size: contain;
+	color: white;
+	
+	
+}
+#content{
+	display:flex;
+}
+
+nav{
+	width: 20%;
+	margin-left: -0.2cm;
+	word-break: break-all;
+	margin-top: 2px;
+
+	
+}
+#add_source{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: left;
+	vertical-align: middle;
+	line-height: 35px;
+	background-image: url("addsource.png");
+	background-position: right;
+	background-size: 20%;
+	background-repeat: no-repeat;
+}
+#add_source:hover{
+	text-decoration: underline;
+	cursor:pointer; 
+}
+#sourcesList{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: left;
+	vertical-align: middle;
+	line-height: 35px;
+	margin-top: 2px;
+}
+#nom_source{
+font-size:small;
+}
+
+.checkbox_label{
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align: left;
+	vertical-align: middle;
+	line-height: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.label_nom_source{
+	font-size: small;
+}
+#titleSourceHour{
+	display: flex;
+	flex-direction: row;
+}
+.element:nth-child(3){
+	text-align: right;
+	flex:1;
+}
+.element:nth-child(2){
+	text-align: center;
+	flex:1;
+}
+#supprimer_source{
+	margin-left: 13%;
+
+}
+
+section
+{
+	margin-top: 2px;
+	margin-left: 2px;
+}
+.ticket
+{
+	border: solid, 0.5px;
+	border-radius: 15px;
+	background-color: rgba(120, 124, 137, 0.25);
+	width: 60%;
+	padding:10px;
+	margin: 2px;
+
+
+}
+#contenu{
+}
+.suspensionContenu:hover{
+}
+
+
